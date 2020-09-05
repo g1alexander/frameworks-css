@@ -1,0 +1,20 @@
+body {
+  background: #243042;
+}
+.bg {
+  background: #243042;
+  border: none;
+}
+.linea {
+  border: 1px solid #f40754;
+}
+.tarjet {
+  margin-top: 3em !important;
+}
+a {
+  text-decoration: none;
+  color: #243042;
+}
+a:hover {
+  text-decoration: #f40754 !important;
+}

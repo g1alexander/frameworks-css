@@ -1,0 +1,69 @@
+/* web */
+.margin-title{
+  padding: 1em !important;
+  font-size: 3em !important;
+}
+
+.margin{
+  padding-top: 8.3em !important;
+  padding-bottom: 4.3em !important;
+}
+
+.contenido{
+  font-size: 3.5em;
+
+  margin-bottom: 0 !important;
+}
+
+/* tablet */
+@media (max-width: 768px){
+  .margin{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 20.2em !important;
+  }
+  .margin-cubos{
+    margin-left: 0 !important;
+  }
+  .contenido{
+    font-size: 5em;
+    padding-bottom: 1em;
+  }
+  .margin-title{
+    padding: 2em 2em 2em 2em !important;
+    font-size: 3em;
+  }
+  .footer{
+    padding: 1em 3em 1.7em 3em !important;
+  }
+  .footer h1{
+    margin-bottom: 0 !important;
+    font-size: 4em;
+  }
+}
+
+/* movil */
+@media (max-width: 375px) {
+  .margin{
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 1em !important;
+    padding-left: 0 !important;
+  }
+  .margin-title{
+    padding: 0 !important;
+    padding-top: 0.5em !important;
+    font-size: 2em;
+  }
+  .contenido{
+    padding-top: 2em;
+    font-size: 3em;
+  }
+  .footer{
+    padding-bottom: 1em !important;
+  }
+  .footer h1{
+    margin-bottom: 0 !important;
+    font-size: 2em;
+  }
+}
