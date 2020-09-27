@@ -1,13 +1,16 @@
 ------------------------------------------------
-        Pagina web "Curso de bootstrap 4"
+        Pagina web "Curso frameworks-css"
         
-https://g1alexander.github.io/Curso-bootstrap/
+https://g1alexander.github.io/frameworks-css/
 ------------------------------------------------
 
             Repositorio de GitHub
             
-https://github.com/g1alexander/Curso-bootstrap
+https://github.com/g1alexander/frameworks-css
+------------------------------------------------
 
+            Actividades del ITP
+https://github.com/g1alexander/frameworks-css/tree/master/src/bootstrap
 ------------------------------------------------
 
         JHON ALEXANDER GRANADOS IBARRA
