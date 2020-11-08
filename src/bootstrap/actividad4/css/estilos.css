@@ -1,0 +1,223 @@
+:root {
+  /* Colors: */
+  --unnamed-color-ffffff00: #ffffff;
+  --unnamed-color-707070: #707070;
+  --unnamed-color-f5f5f500: #f5f5f5;
+  --unnamed-color-12bdc9: #12bdc9;
+  --unnamed-color-0d0b0b: #0d0b0b;
+  --unnamed-color-210c0c: #210c0c;
+}
+
+.bg-restaurant {
+  background: transparent
+    linear-gradient(269deg, #f5f5f5 0%, #f8f8f8 50%, #ffffff 100%) !important;
+  opacity: 1;
+}
+
+.margin-carta {
+  margin-top: 9rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.margen-contact {
+  margin-top: 5rem !important;
+}
+
+.fondo li {
+  background: #7d878f;
+}
+
+.text-secundary {
+  color: #545454;
+}
+
+#about .imagen {
+  margin-top: 5rem;
+}
+
+.btn-home {
+  border-radius: 0 !important;
+  color: #ffffff !important;
+  background-color: var(--unnamed-color-12bdc9) !important;
+  border-color: var(--unnamed-color-12bdc9) !important;
+  width: 11rem;
+}
+
+/*** CONTACTO ***/
+
+#baz-contactMap {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.baz-contact-section {
+  position: relative;
+  z-index: 1;
+  padding-top: 1px;
+  padding-bottom: 60px;
+}
+
+.baz-contact-wrap {
+  background-color: #fff;
+  padding: 40px 40px 0 40px;
+  margin-top: 360px;
+}
+
+.baz-contact-section h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5em;
+  color: #1b1b1b;
+}
+
+.baz-contact-info ul {
+  padding-left: 0;
+}
+
+.baz-contact-info ul li {
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.baz-contact-info ul li i {
+  margin-right: 10px;
+  color: #26272e;
+  font-size: 16px;
+}
+
+.baz-contact-info ul li {
+  font-size: 14px;
+}
+
+/*Contact Form*/
+
+.baz-contact-form .form-control {
+  border-radius: 0;
+  height: 45px;
+  font-size: 14px;
+  background-color: transparent;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: #d4d4d4;
+  outline: none;
+}
+
+.baz-contact-form:focus,
+.form-control:focus {
+  border-bottom-width: 2px;
+  border-color: #26272e;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.baz-contact-form .form-control.message {
+  height: 120px;
+}
+
+#form-messages {
+  display: none;
+}
+
+#form-messages.alert-danger,
+#form-messages.alert-success {
+  display: block;
+}
+
+/* Buttons  contacto*/
+.baz-btn2 {
+  padding: 10px 30px;
+  border: 0.5px solid #26272e !important;
+  color: #1b1b1b;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.baz-btn2:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #26272e;
+  -webkit-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  -o-transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.baz-btn2:hover,
+.baz-btn2:focus {
+  border-color: #26272e;
+  color: #fff !important;
+}
+
+.baz-btn2:hover:after,
+.baz-btn2:focus:after {
+  width: 100%;
+}
+
+/*** 17. Footer style ***/
+
+.baz-footer-section {
+  background: #1b1b1b;
+  padding: 80px 0;
+}
+.top-footer-padding-bottom {
+  padding-bottom: 15px;
+}
+.baz-footer-section .brand {
+  font-family: "Arizonia", cursive;
+  font-size: 42px;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.baz-footer-section .brand span {
+  color: #1b1b1b;
+}
+.footer-brand-name {
+  text-align: center;
+}
+
+.footer-contact-btn {
+  text-align: right;
+}
+.baz-social-link {
+  display: inline-block;
+}
+
+.baz-social-link li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 12px;
+}
+
+.baz-social-link li i {
+  color: #fff;
+}
+
+.baz-footer-section p {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 25px;
+  margin: 0;
+  border-top: 1px solid #464646;
+  text-align: center;
+}
