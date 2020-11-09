@@ -11,6 +11,15 @@
   #responsive img {
     height: 350px;
   }
+  #about .imagen {
+    margin-top: 1rem;
+  }
+  .margen-about {
+    margin-bottom: 5rem !important;
+  }
+  .btn-margen-plan {
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 411px) {
@@ -49,6 +58,9 @@
   }
   #about .imagen {
     margin-top: 0;
+  }
+  .margin-plan {
+    margin-bottom: 1.5rem;
   }
 }
 
