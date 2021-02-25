@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  background: #f5f5f5;
+  font-family: "Lato", sans-serif !important;
+}
+
+.typografy-color {
+  color: #1585c7;
+}
+
+.btn-info {
+  background: #1585c7 !important;
+}
+.img img {
+  height: 400px !important;
+}
+
+footer {
+  height: 100px;
+}
+
+@media screen and (max-width: 411px) {
+  .img img {
+    height: 300px !important;
+  }
+}

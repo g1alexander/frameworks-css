@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/ed-grid@3.0.0/src/css/ed-grid.min.css" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    :root{
+      --gap: 0.5rem;
+    }
+    .width-height {
+      background: #1192ee;
+      width: 100%;
+      min-height: 100px;
+      margin: 5px;
+      display: grid;
+      justify-content: center;
+      align-content: center; 
+      color: ivory;
+    }
+  </style>
+</head>
+<body class="container">
+  <h1 class="m-center">Actividad 1 de edgrid</h1>
+
+  <h5 class="container">Mostly fluid</h5>
+  <div class="ed-grid s-grid-12">
+    <div class="width-height s-cols-12 m-cols-12 lg-cols-8 xl-cols-8">
+      1
+    </div>
+    <div class="width-height s-cols-12 m-cols-6 lg-cols-4 xl-cols-4">
+      2
+    </div>
+    <div class="width-height s-cols-12 m-cols-6 lg-cols-4 xl-cols-4">
+      3
+    </div>
+    <div class="width-height s-cols-12 m-cols-12 lg-cols-4 xl-cols-4">
+      4
+    </div>
+    <div class="width-height s-cols-12 m-cols-12 lg-cols-4 xl-cols-4">
+      5
+    </div>
+  </div>
+  <h5>colacion de colmunas</h5>
+  <div>
+
+  </div>
+</body>
+</html>
